@@ -8,7 +8,8 @@
     --text-black-900: #302e4d;
     --text-black-700: #504e70;
 }
-body.dark{
+
+body.dark {
     --bg-black-900: #151515;
     --bg-black-100: #222222;
     --bg-black-50: #393939;
@@ -545,6 +546,7 @@ h3.my-profession {
     max-width: 100%;
     margin-bottom: 40px;
 }
+
 .portfolio .portfolio-heading h2 {
     color: var(--text-black-900);
     font-weight: 500;
@@ -570,6 +572,7 @@ h3.my-profession {
     display: block;
 
 }
+
 /* Contact */
 .contact-title {
     color: var(--skin-color);
@@ -678,11 +681,13 @@ h3.my-profession {
 }
 
 @media(max-width:1183px) {
+
     .contact .contact-info-item,
-    .portfolio .portfolio-item{
+    .portfolio .portfolio-item {
         flex: 0 0 50%;
         max-width: 50%;
     }
+
     .home .home-info {
         flex: 0 0 100%;
         max-width: 100%;
@@ -692,13 +697,29 @@ h3.my-profession {
         display: none;
     }
 }
-@media(max-width:767px){
+
+@media(max-width:767px) {
+
     .contact .contact-form .col-6,
     .contact .contact-info-item,
     .portfolio .portfolio-item,
     .about .about-content .skills,
-    .about .about-content .personal-info{
+    .about .about-content .personal-info {
         flex: 0 0 100%;
         max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .style-switcher {
+        top: auto;
+        bottom: 0;
+        right: 0;
+        transform: translateY(0);
+    }
+}
+@media (max-width: 500px){
+    .about .about-content .personal-info .info-item p{
+        font-size: 14px;
     }
 }
