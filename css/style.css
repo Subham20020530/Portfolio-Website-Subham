@@ -600,7 +600,8 @@ h3.my-profession {
 }
 
 .contact .contact-info-item .icon .fa,
-.contact .contact-info-item .icon .fa-brands {
+.contact .contact-info-item .icon .fa-brands,
+.contact .contact-info-item .icon .fa-solid {
     font-size: 20px;
     color: var(--skin-color);
 }
@@ -613,7 +614,7 @@ h3.my-profession {
     margin: 15px 0 5px;
 }
 
-.contact .contact-info-item p {
+.contact .contact-info-item p span a{
     font-size: 16px;
     line-height: 25px;
     color: var(--text-black-700);
